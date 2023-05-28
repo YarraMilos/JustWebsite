@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Style.css">
+    <title>Студия Алисы Соколовой</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+           <div class="header__container container">
+                <div class="header__logo">Студия Алисы Соколовой</div>
+                <ul class="header__menu__list">
+                    <li class="menu__item"><a class="menu__link " href="index.html">Главная</a></li>
+                    <li class="menu__item"><a class="menu__link" href="Gallery.html">Галлерея</a></li>
+                    <li class="menu__item"><a class="menu__link " href="Services.html">Услуги</a></li>
+                    <li class="menu__item"><a class="menu__link active" href="Contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="header__light"><img  src="images/HeaderLight.png" alt=""></div>
+        
+        
+        <main class="main">
+            <section class="Contacts__section">
+                <div class="container">
+                    <form class="section__body" id="form" action="#" method="POST" >
+                        <div class="form__block">
+                            <div class="Email Form__item">
+                                <div class="placeholder">Электронная почта*</div>
+                                <div class="email__form">
+                                    <input class="input" data-required="true" type="email" name="email" autocomplete="off" >
+                                </div>
+                            </div>
+                            <div class="company Form__item">
+                                <div class="placeholder">Компания</div>
+                                <div class="Company__form">
+                                    <input class="input"  data-required="false"  type="text" name="company" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="phone__number Form__item">
+                                <div class="placeholder">Номер телефона</div>
+                                <div class="number__form">
+                                    <input class="input"  data-required="false"  type="text" name="phoneNumber" autocomplete="off" placeholder="+7 __ __ __ __">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="send__message__block">
+                            <div class="send__message__form">
+                                <input data-required="true"  type="text" placeholder="Напишите сообщение..." name="message" autocomplete="off">
+                            </div>
+                            <div class="send__message__link">
+                                <button type="submit" name="send">Отправить сообщение</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="section__background"><img src="images/Website__background.jpg" alt=""></div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__img3"><img src="images/chairAndTable.png" alt=""></div>
+            </div>
+            <div class="footer__social__links">
+                <a href="https://vk.com/aaaalissa"><img src="images/VK.svg" alt=""></a>
+                <a href="Contacts.html"><img src="images/WhatsApp.svg" alt=""></a>
+                <a href="https://t.me/AAlisaaaaaaa"><img src="images/Telegram.svg" alt=""></a>
+            </div>
+            <div class="footer__protected"><p>© Все права защищены. 2023 г.</p><img src="images/signature.svg" alt=""></div>
+        </footer>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="Contacts.js"></script>
+</body>
+</html>
