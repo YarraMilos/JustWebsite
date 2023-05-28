@@ -56,10 +56,10 @@ async function formSend(form) {
         ContactsSection.classList.add('respond')
         const container = ContactsSection.querySelector('.container')
         const tittle = document.createElement('h1')
-        tittle.textContent = 'Ваша заявка успешна принята';
+        tittle.textContent = 'Ваша заявка успешна принята!';
         container.appendChild(tittle)
     } else {
-        ContactsSection.classList.add('respond_error')
+        ContactsSection.classList.add('respond')
         const container = ContactsSection.querySelector('.container')
         const tittle = document.createElement('h1')
         tittle.textContent = 'Ошибка побпробуйте еще раз';
